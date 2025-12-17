@@ -9,9 +9,10 @@ import com.example.demo.entity.Student;
 @Service
 public class StudentServiceImpl implements StudentService{
 
-    @
+    @Autowired
+    StudentRepository stdrepo;
     @Override
     public Student poststudent(Student st){
-
+        return
     }
 }
