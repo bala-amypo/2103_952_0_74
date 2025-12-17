@@ -1,6 +1,6 @@
 package com.example.demo.conroller;
 
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import com.example.demo.entity.Student;
 import org.springframework.beans.factory.annotation.Autowired;
